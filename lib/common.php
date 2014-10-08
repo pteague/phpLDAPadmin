@@ -323,7 +323,7 @@ if (! $app['server']->isSessionValid()) {
 
 # If syslog is enabled, we need to include the supporting file.
 if ($_SESSION[APPCONFIG]->getValue('debug','syslog'))
-	require LIBDIR.'syslog.php';
+	require_once LIBDIR.'syslog.php';
 
 /**
  * At this point we have read all our additional function PHP files and our configuration.

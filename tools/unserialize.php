@@ -1,6 +1,6 @@
 <?php
 
-require '../lib/common.php';
+require_once '../lib/common.php';
 
 echo '<head><link type="text/css" rel="stylesheet" href="../htdocs/css/style.css" /></head>';
 echo '<body>'."\n";
@@ -23,4 +23,4 @@ echo '</pre></small></td>';
 echo '</tr>';
 echo '</table>';
 echo '</body>';
-?>
+

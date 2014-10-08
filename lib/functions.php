@@ -261,7 +261,7 @@ function check_config($config_file) {
 		include LIBDIR.'config_custom.php';
 
 	ob_start();
-	require $config_file;
+	require_once $config_file;
 	$str = '';
 	if (ob_get_level()) {
 		$str = ob_get_contents();
